@@ -1,0 +1,89 @@
+/* GLOBALES */
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    overflow-x: hidden;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    cursor: pointer;
+    color: white;
+}
+img {
+    max-width: 100%;
+}
+
+/* ID */
+
+#menu li > a {
+    font-size: 18px;
+    font-weight: 600;
+    color: #3f3f3f
+}
+
+#menu form > button {
+    font-size: 18px;
+    font-weight: 600;
+}
+#servicios {
+    background-color: rgba(0, 0, 0, 0.1);
+} 
+#row {
+    text-align: center;
+}
+#footer {
+    display: none;
+}
+
+/* CLASES */
+.carousel-inner {
+    max-height: 550px;
+}
+.fw-400 {
+    font-weight: 300;
+}
+
+.contenido {
+    margin-top: -9rem;
+    margin-bottom: 11rem;
+}
+.mapa {
+    margin: 0;
+    padding: 0;
+}
+.parrafo {
+    margin: 0;
+    text-align: center;
+}
+.mapa {
+    margin-bottom: 2rem;
+    margin-left: 3rem;
+}
+
+/* MEDIA QUERIES */ 
+@media (min-width: 768px) {
+    #main {
+        max-width: 90% !important;
+    }
+}
+@media(min-width: 768px) {
+    #local {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media(min-width: 768px) {
+    #footer {
+        display: flex;
+        justify-content: center;
+    }
+}
+@media(min-width: 768px) {
+    #form {
+        display: grid;
+        grid-template-columns: 1fr, 1fr;
+    }
+}
